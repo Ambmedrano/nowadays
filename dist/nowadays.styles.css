@@ -636,7 +636,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 .more-cards__image img {
   height: 390px;
