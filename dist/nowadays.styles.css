@@ -665,8 +665,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  opacity: 0;
 }
 .more-cards__overlay:hover {
-  display: block;
+  opacity: 1;
 }
