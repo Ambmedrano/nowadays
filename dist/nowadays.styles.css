@@ -612,12 +612,12 @@ header {
   text-align: center;
   transition: 0.2s linear;
 }
-.bs-product__image:hover {
+.bs-product__one:hover {
   background-image: url(06c66f3976d5042d7029.png);
   cursor: pointer;
   transition: 0.2s linear;
 }
-.bs-product__image img {
+.bs-product__one img {
   height: 460px;
 }
 .bs-product__reviews {
