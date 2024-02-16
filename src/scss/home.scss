@@ -1,0 +1,148 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: -1;
+  &__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    &-info {
+      padding: 90px;
+      position: absolute;
+      text-transform: uppercase;
+      top: 30%;
+
+      h2 {
+        color: $white;
+        font-size: 80px;
+        line-height: 70px;
+        margin-bottom: 28px;
+      }
+      p {
+        color: $white;
+        font-size: 28px;
+        margin-bottom: 43px;
+      }
+    }
+  }
+  &__video {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+}
+.icons {
+  background-color: $white;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  padding: 0 170px;
+  padding: 60px 150px;
+  &__icon {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    p {
+      font-size: 19px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $beige;
+      font-family: $font_family;
+      font-weight: $normal;
+      line-height: $lh_small;
+    }
+    img {
+      height: 62px;
+    }
+    .icons__shipping {
+      height: 42px;
+    }
+  }
+}
+
+.best-sellers {
+  background: #ffffff;
+  padding-bottom: 30px;
+  padding-top: 60px;
+
+  &__head {
+    margin-bottom: 60px;
+  }
+  &__title {
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  &__description {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: $bg_color;
+    font-weight: $normal;
+  }
+  &__products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+.bs-product {
+  font-family: $font_family;
+  text-align: center;
+  text-transform: uppercase;
+
+  &__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 82% 86%;
+    margin-bottom: 24px;
+    text-align: center;
+    transition: 0.2s linear;
+    &:hover {
+      background-image: url("/img/bg_best_sellers.png");
+      cursor: pointer;
+      transition: 0.2s linear;
+    }
+
+    img {
+      height: 460px;
+    }
+  }
+
+  &__reviews {
+    direction: rtl;
+    display: inline-block;
+    margin-right: 3px;
+    unicode-bidi: bidi-override;
+
+    input {
+      display: none;
+    }
+    label {
+      color: $bg_color;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    input:checked ~ label {
+      color: #efba87;
+    }
+  }
+
+  &__title,
+  &__reviews,
+  &__description,
+  &__bottle {
+    margin-bottom: 6px;
+  }
+  &__price {
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+}
+.shop-all {
+  margin-bottom: 100px;
+  text-align: center;
+}
