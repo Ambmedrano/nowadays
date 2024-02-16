@@ -527,13 +527,13 @@ header {
   justify-content: center;
 }
 .icons__icon p {
-  font-size: 19px;
-  text-align: center;
-  text-transform: uppercase;
   color: #e6b78a;
   font-family: "Lato", sans-serif;
+  font-size: 19px;
   font-weight: 400;
   line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .icons__icon img {
   height: 62px;
@@ -555,10 +555,10 @@ header {
   text-transform: uppercase;
 }
 .best-sellers__description {
-  font-size: 30px;
-  text-transform: capitalize;
   color: #31374F;
+  font-size: 30px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 .best-sellers__products {
   display: grid;
@@ -623,24 +623,28 @@ header {
 .more-ways__info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 36px;
 }
 .more-ways__title {
-  text-transform: uppercase;
   font-size: 30px;
+  text-transform: uppercase;
 }
 
 .more-cards {
   display: grid;
+  gap: 25px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 25px;
 }
 .more-cards__image img {
   height: 390px;
 }
 .more-cards__info h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  font-size: 30px;
+}
+.more-cards__info p {
+  text-align: center;
 }
