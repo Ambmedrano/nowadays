@@ -652,7 +652,12 @@ header {
   text-align: left;
 }
 .more-ways__title p {
-  font-size: 1.111rem;
+  font-family: "Elicit Script";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .more-ways__image {
   text-align: end;
