@@ -513,22 +513,22 @@ header {
 }
 .hero__image-info h2 {
   color: #ffffff;
-  margin-bottom: 28px;
   font-family: "Euclid Flex";
   font-size: 88px;
   font-weight: 500;
-  line-height: 84px;
   letter-spacing: 2.506000042px;
+  line-height: 84px;
+  margin-bottom: 28px;
   text-align: left;
 }
 .hero__image-info p {
   color: #ffffff;
-  margin-bottom: 43px;
   font-family: "Euclid Circular A";
   font-size: 24px;
   font-weight: 400;
-  line-height: 30px;
   letter-spacing: 0em;
+  line-height: 30px;
+  margin-bottom: 43px;
   text-align: left;
 }
 .hero__video {
@@ -555,13 +555,13 @@ header {
 }
 .icons__icon p {
   color: #e6b78a;
-  text-transform: uppercase;
   font-family: "Euclid Flex";
   font-size: 20px;
   font-weight: 500;
-  line-height: 25px;
   letter-spacing: 0.95px;
+  line-height: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 .icons__icon img {
   height: 62px;
@@ -722,6 +722,7 @@ header {
 }
 .more-cards__card {
   position: relative;
+  width: 390px;
 }
 .more-cards__overlay {
   align-items: center;
