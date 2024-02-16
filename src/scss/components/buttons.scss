@@ -34,4 +34,17 @@
     background: $black;
     color: $white;
   }
+  &__white--br-white {
+    background: transparent;
+    border: 2px solid $white;
+    color: $white;
+    display: inline-block;
+    font-size: 18px;
+    padding: 19px 110px;
+    text-align: center;
+  }
+  &__white--br-white:hover {
+    background: $white;
+    color: $bg_color;
+  }
 }

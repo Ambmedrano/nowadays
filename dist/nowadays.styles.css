@@ -475,6 +475,19 @@ header {
   background: #101010;
   color: #ffffff;
 }
+.btn__white--br-white {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 19px 110px;
+  text-align: center;
+}
+.btn__white--br-white:hover {
+  background: #ffffff;
+  color: #31374F;
+}
 
 .hero {
   display: grid;
