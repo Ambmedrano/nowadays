@@ -631,7 +631,8 @@ header {
 }
 
 .more-ways {
-  background-color: #ffffff;
+  background-color: #fafafa;
+  padding: 60px 0;
 }
 .more-ways__info {
   display: grid;

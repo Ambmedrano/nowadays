@@ -148,7 +148,8 @@
 }
 
 .more-ways {
-  background-color: $white;
+  background-color: #fafafa;
+  padding: 60px 0;
   &__info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
