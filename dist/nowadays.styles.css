@@ -645,6 +645,7 @@ header {
 .more-ways__title h2 {
   font-size: 2.357rem;
   font-weight: 400;
+  margin-bottom: 12px;
 }
 .more-ways__title p {
   font-size: 1.111rem;
