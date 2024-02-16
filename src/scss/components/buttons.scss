@@ -5,8 +5,13 @@
   color: $black;
   &__beige--big {
     display: inline-block;
-    font-size: 18px;
     padding: 20px 160px;
+    font-family: "Euclid Flex";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
   }
   &__beige--big:hover {
     background: $black;
