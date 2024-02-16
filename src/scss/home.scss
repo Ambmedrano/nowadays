@@ -16,14 +16,23 @@
 
       h2 {
         color: $white;
-        font-size: 80px;
-        line-height: 70px;
         margin-bottom: 28px;
+        font-family: "Euclid Flex";
+        font-size: 88px;
+        font-weight: 500;
+        line-height: 84px;
+        letter-spacing: 2.50600004196167px;
+        text-align: left;
       }
       p {
         color: $white;
-        font-size: 28px;
         margin-bottom: 43px;
+        font-family: "Euclid Circular A";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
       }
     }
   }
