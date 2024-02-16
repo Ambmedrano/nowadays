@@ -155,12 +155,16 @@
     margin-bottom: 36px;
   }
   &__title {
-    text-transform: uppercase;
     font-family: $font_family;
+    text-transform: uppercase;
     h2 {
-      font-size: $titles;
-      font-weight: $normal;
+      font-family: "Euclid Flex";
+      font-size: 48px;
+      font-weight: 500;
+      letter-spacing: 0em;
+      line-height: 48px;
       margin-bottom: 12px;
+      text-align: left;
     }
     p {
       font-size: $medium;
@@ -185,12 +189,12 @@
   }
   &__info {
     h4 {
-      margin-bottom: 10px;
       font-family: "Euclid Flex";
       font-size: 28px;
       font-weight: 500;
-      line-height: 36px;
       letter-spacing: 0em;
+      line-height: 36px;
+      margin-bottom: 10px;
       text-align: center;
       text-transform: uppercase;
     }
@@ -202,17 +206,17 @@
     position: relative;
   }
   &__overlay {
-    width: 390px;
-    height: 390px;
-    background: $bg_color;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background: $bg_color;
+    display: flex;
+    height: 390px;
+    justify-content: center;
+    left: 0;
     opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 390px;
     &:hover {
       opacity: 0.6;
     }

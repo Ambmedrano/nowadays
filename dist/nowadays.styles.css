@@ -639,13 +639,17 @@ header {
   margin-bottom: 36px;
 }
 .more-ways__title {
-  text-transform: uppercase;
   font-family: "Lato", sans-serif;
+  text-transform: uppercase;
 }
 .more-ways__title h2 {
-  font-size: 2.357rem;
-  font-weight: 400;
+  font-family: "Euclid Flex";
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 48px;
   margin-bottom: 12px;
+  text-align: left;
 }
 .more-ways__title p {
   font-size: 1.111rem;
@@ -665,12 +669,12 @@ header {
   margin-bottom: 30px;
 }
 .more-cards__info h4 {
-  margin-bottom: 10px;
   font-family: "Euclid Flex";
   font-size: 28px;
   font-weight: 500;
-  line-height: 36px;
   letter-spacing: 0em;
+  line-height: 36px;
+  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -681,17 +685,17 @@ header {
   position: relative;
 }
 .more-cards__overlay {
-  width: 390px;
-  height: 390px;
-  background: #31374F;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background: #31374F;
+  display: flex;
+  height: 390px;
+  justify-content: center;
+  left: 0;
   opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 390px;
 }
 .more-cards__overlay:hover {
   opacity: 0.6;
