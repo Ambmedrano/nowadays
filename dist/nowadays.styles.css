@@ -625,7 +625,6 @@ header {
 .more-ways__info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
 }
 .more-ways__title {
   text-transform: uppercase;
@@ -640,4 +639,9 @@ header {
 }
 .more-cards__image img {
   height: 390px;
+}
+.more-cards__info h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
