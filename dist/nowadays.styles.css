@@ -605,6 +605,9 @@ header {
   text-transform: uppercase;
 }
 .bs-product__image {
+  text-align: center;
+}
+.bs-product__one {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 82% 86%;
