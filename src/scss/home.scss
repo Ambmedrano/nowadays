@@ -191,7 +191,7 @@
   &__overlay {
     width: 390px;
     height: 390px;
-    background: gray;
+    background: $bg_color;
     position: absolute;
     top: 0;
     left: 0;
@@ -199,7 +199,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 0.6;
     &:hover {
       opacity: 1;
     }

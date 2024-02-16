@@ -657,7 +657,7 @@ header {
 .more-cards__overlay {
   width: 390px;
   height: 390px;
-  background: gray;
+  background: #31374F;
   position: absolute;
   top: 0;
   left: 0;
@@ -665,7 +665,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
+  opacity: 0.6;
 }
 .more-cards__overlay:hover {
   opacity: 1;
