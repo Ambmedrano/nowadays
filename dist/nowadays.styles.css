@@ -620,6 +620,16 @@ header {
   cursor: pointer;
   transition: 0.2s linear;
 }
+.bs-product__two:hover {
+  background-image: url(06c66f3976d5042d7029.png);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.bs-product__three:hover {
+  background-image: url(06c66f3976d5042d7029.png);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
 .bs-product__reviews {
   direction: rtl;
   display: inline-block;
