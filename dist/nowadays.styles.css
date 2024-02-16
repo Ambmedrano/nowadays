@@ -629,6 +629,9 @@ header {
   font-size: 30px;
   text-transform: uppercase;
 }
+.more-ways__image {
+  text-align: end;
+}
 
 .more-cards {
   display: grid;
