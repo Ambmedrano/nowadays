@@ -650,6 +650,7 @@ header {
   line-height: 48px;
   margin-bottom: 12px;
   text-align: left;
+  color: #101010;
 }
 .more-ways__title p {
   font-family: "Elicit Script";
@@ -658,6 +659,7 @@ header {
   line-height: 65px;
   letter-spacing: 0em;
   text-align: left;
+  color: #101010;
 }
 .more-ways__image {
   text-align: end;
