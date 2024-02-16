@@ -665,4 +665,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
+}
+.more-cards__overlay:hover {
+  display: none;
 }
