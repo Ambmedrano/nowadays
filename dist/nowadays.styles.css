@@ -555,12 +555,13 @@ header {
 }
 .icons__icon p {
   color: #e6b78a;
-  font-family: "Lato", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
   text-transform: uppercase;
+  font-family: "Euclid Flex";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.95px;
+  text-align: center;
 }
 .icons__icon img {
   height: 62px;

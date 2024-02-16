@@ -58,12 +58,13 @@
     justify-content: center;
     p {
       color: $beige;
-      font-family: $font_family;
-      font-size: 19px;
-      font-weight: $normal;
-      line-height: $lh_small;
-      text-align: center;
       text-transform: uppercase;
+      font-family: "Euclid Flex";
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: 0.95px;
+      text-align: center;
     }
     img {
       height: 62px;
