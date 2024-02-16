@@ -668,5 +668,5 @@ header {
   display: none;
 }
 .more-cards__overlay:hover {
-  display: none;
+  display: block;
 }
