@@ -157,4 +157,8 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
   }
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
 }
