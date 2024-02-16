@@ -632,7 +632,7 @@ header {
   font-size: 30px;
 }
 
-.more-cards__card {
+.more-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
