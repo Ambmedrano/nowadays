@@ -661,6 +661,8 @@ header {
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 .more-cards__info p {
   text-align: center;
