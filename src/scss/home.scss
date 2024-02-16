@@ -150,7 +150,7 @@
 .more-ways {
   background-color: $white;
   box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.1);
-  border: 1px solid $bg_color;
+  border-bottom: 1px solid $bg_color;
 
   &__info {
     display: grid;
