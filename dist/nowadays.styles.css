@@ -640,7 +640,6 @@ header {
 }
 .more-ways__title {
   font-family: "Lato", sans-serif;
-  text-transform: uppercase;
 }
 .more-ways__title h2 {
   font-family: "Euclid Flex";
@@ -651,6 +650,7 @@ header {
   margin-bottom: 12px;
   text-align: left;
   color: #101010;
+  text-transform: uppercase;
 }
 .more-ways__title p {
   font-family: "Elicit Script";
@@ -660,6 +660,7 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: #101010;
+  text-transform: capitalize;
 }
 .more-ways__image {
   text-align: end;

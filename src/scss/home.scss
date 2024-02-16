@@ -156,7 +156,6 @@
   }
   &__title {
     font-family: $font_family;
-    text-transform: uppercase;
     h2 {
       font-family: "Euclid Flex";
       font-size: 48px;
@@ -166,6 +165,7 @@
       margin-bottom: 12px;
       text-align: left;
       color: #101010;
+      text-transform: uppercase;
     }
     p {
       font-family: "Elicit Script";
@@ -175,6 +175,7 @@
       letter-spacing: 0em;
       text-align: left;
       color: #101010;
+      text-transform: capitalize;
     }
   }
   &__image {
