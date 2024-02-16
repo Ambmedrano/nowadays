@@ -34,7 +34,7 @@
     background: $black;
     color: $white;
   }
-  &__white--br-white {
+  &__transparent {
     background: transparent;
     border: 2px solid $white;
     color: $white;
@@ -43,7 +43,7 @@
     padding: 11px 62px;
     text-align: center;
   }
-  &__white--br-white:hover {
+  &__transparent:hover {
     background: $white;
     color: $bg_color;
   }

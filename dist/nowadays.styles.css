@@ -475,7 +475,7 @@ header {
   background: #101010;
   color: #ffffff;
 }
-.btn__white--br-white {
+.btn__transparent {
   background: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
@@ -484,7 +484,7 @@ header {
   padding: 11px 62px;
   text-align: center;
 }
-.btn__white--br-white:hover {
+.btn__transparent:hover {
   background: #ffffff;
   color: #31374F;
 }
