@@ -654,6 +654,7 @@ header {
 }
 .more-cards__image img {
   height: 390px;
+  margin-bottom: 30px;
 }
 .more-cards__info h4 {
   font-size: 30px;
