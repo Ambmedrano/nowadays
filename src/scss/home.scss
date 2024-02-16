@@ -185,4 +185,17 @@
       text-align: center;
     }
   }
+  &__card{
+    position: relative;
+  }
+  &__overlay{
+    width: 390px;
+    height: 390px;
+    background: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  }
 }
