@@ -631,3 +631,9 @@ header {
   text-transform: uppercase;
   font-size: 30px;
 }
+
+.more-cards__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
