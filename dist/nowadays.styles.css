@@ -564,7 +564,12 @@ header {
   margin-bottom: 60px;
 }
 .best-sellers__title {
-  font-size: 50px;
+  font-family: "Euclid Flex";
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 48px;
+  text-align: left;
   text-transform: uppercase;
 }
 .best-sellers__description {
@@ -643,6 +648,7 @@ header {
   font-family: "Lato", sans-serif;
 }
 .more-ways__title h2 {
+  color: #101010;
   font-family: "Euclid Flex";
   font-size: 48px;
   font-weight: 500;
@@ -650,17 +656,16 @@ header {
   line-height: 48px;
   margin-bottom: 12px;
   text-align: left;
-  color: #101010;
   text-transform: uppercase;
 }
 .more-ways__title p {
+  color: #101010;
   font-family: "Elicit Script";
   font-size: 32px;
   font-weight: 600;
-  line-height: 65px;
   letter-spacing: 0em;
+  line-height: 65px;
   text-align: left;
-  color: #101010;
   text-transform: capitalize;
 }
 .more-ways__image {
