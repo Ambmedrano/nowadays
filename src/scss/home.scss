@@ -129,14 +129,14 @@
   }
   &__two {
     &:hover {
-      background-image: url("/img/Bg-micro.png");
+      background-image: url("/img/Bg-low.png");
       cursor: pointer;
       transition: 0.2s linear;
     }
   }
   &__three {
     &:hover {
-      background-image: url("/img/Bg-micro.png");
+      background-image: url("/img/Bg-high.png");
       cursor: pointer;
       transition: 0.2s linear;
     }
