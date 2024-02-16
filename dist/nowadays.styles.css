@@ -605,9 +605,6 @@ header {
   text-transform: uppercase;
 }
 .bs-product__image {
-  text-align: center;
-}
-.bs-product__one {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 82% 86%;
@@ -615,12 +612,12 @@ header {
   text-align: center;
   transition: 0.2s linear;
 }
-.bs-product__one:hover {
+.bs-product__image:hover {
   background-image: url(06c66f3976d5042d7029.png);
   cursor: pointer;
   transition: 0.2s linear;
 }
-.bs-product__one img {
+.bs-product__image img {
   height: 460px;
 }
 .bs-product__reviews {
