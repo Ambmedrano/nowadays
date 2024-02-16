@@ -4,6 +4,9 @@
  * Author: Upstatement and YOU!
 */
 
+body{
+    height: 1000vh;
+}
 /* .icons{
     background-color:var(--white);
     display: grid;
