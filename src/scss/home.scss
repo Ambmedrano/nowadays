@@ -155,11 +155,14 @@
     margin-bottom: 36px;
   }
   &__title {
-    font-size: 30px;
     text-transform: uppercase;
     font-family: $font_family;
     h2 {
+      font-size: $titles;
       font-weight: $normal;
+    }
+    p {
+      font-size: $medium;
     }
   }
   &__image {
