@@ -672,6 +672,7 @@ header {
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
+  text-transform: uppercase;
 }
 .more-cards__info p {
   text-align: center;
