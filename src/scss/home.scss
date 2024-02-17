@@ -213,6 +213,7 @@
     text-align: end;
     img {
       animation: text-rotate;
+      animation-duration: 0.4s infinite;
       @keyframes text-rotate {
         from {
           transform: rotate(0deg);

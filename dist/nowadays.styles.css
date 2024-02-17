@@ -698,6 +698,7 @@ header {
 }
 .more-ways__image img {
   animation: text-rotate;
+  animation-duration: 0.4s infinite;
 }
 @keyframes text-rotate {
   from {
