@@ -696,6 +696,17 @@ header {
 .more-ways__image {
   text-align: end;
 }
+.more-ways__image img {
+  animation: text-rotate;
+}
+@keyframes text-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
 
 .more-cards {
   display: grid;
